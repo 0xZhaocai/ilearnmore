@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Mail } from 'lucide-react'
 import { useLocale } from '@/lib/i18n'
 import {
@@ -29,10 +30,11 @@ export default function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="space-y-4">
-            <img
+            <Image
               src="/android-chrome-192x192.png"
               alt="LEMO"
-              className="h-12 w-12"
+              width={48}
+              height={48}
             />
             <p className="text-muted-foreground max-w-xs">
               {t.footer.slogan}
