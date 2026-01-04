@@ -11,7 +11,7 @@
 - 🌍 **中英双语** - 语言偏好保存在 localStorage
 - 🌙 **暗色主题** - 默认暗色，支持主题切换
 - 📱 **响应式设计** - 完美适配各种设备
-- 📧 **表单集成** - Formspree 集成，提交内容发送至邮箱
+- 📧 **表单集成** - Formspree（https://formspree.io/）集成，提交内容发送至邮箱
 - � **SEO 优化** - Open Graph、Twitter Cards、地理标签
 - 📝 **ICP 备案** - 符合中国大陆备案要求
 
@@ -21,7 +21,7 @@
 - **样式**: Tailwind CSS
 - **UI 组件**: shadcn/ui
 - **类型**: TypeScript
-- **表单**: Formspree
+- **表单**: Formspree（https://formspree.io/）
 - **主题**: next-themes
 
 ## 📄 页面列表
@@ -76,7 +76,7 @@ npm run build
 ## ⚙️ 配置
 
 ### 表单提交
-表单使用 Formspree 服务。如需更换，修改 `app/contact/page.tsx` 中的 `FORMSPREE_ENDPOINT`。
+表单使用 Formspree（https://formspree.io/）服务。如需更换，修改 `app/contact/page.tsx` 中的 `FORMSPREE_ENDPOINT`。
 
 ### SEO 配置
 SEO 元数据在 `app/layout.tsx` 中配置，包括：
