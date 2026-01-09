@@ -1,5 +1,6 @@
 name = "ilearnmore"
 compatibility_date = "2026-01-09"
+main = "workers-site/index.js"
 
 [site]
 bucket = "./out"
