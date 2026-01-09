@@ -182,7 +182,7 @@ export const en: Translations = {
             title: 'Add Consultant WeChat',
             description: 'Scan QR code to add our consultant on WeChat',
         },
-        copyright: '© 2025 LEMO Tech. All Rights Reserved.',
+        copyright: '© 2026 LEMO Tech. All Rights Reserved.',
         serviceList: ['Rapid Product Launch', 'Digital Workforce', 'Training & Consulting'],
     },
 

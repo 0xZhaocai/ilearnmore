@@ -180,7 +180,7 @@ export const zh = {
             title: '添加顾问微信',
             description: '请扫描二维码添加顾问微信',
         },
-        copyright: '© 2025 乐墨科技 (LEMO). All Rights Reserved.',
+        copyright: '© 2026 乐墨科技 (LEMO). All Rights Reserved.',
         serviceList: ['极速产品落地', '数字化员工', '赋能培训与咨询'],
     },
 
