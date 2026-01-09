@@ -1,0 +1,7 @@
+name = "ilearnmore"
+compatibility_date = "2026-01-09"
+
+[site]
+bucket = "./out"
+include = ["**/*"]
+exclude = []

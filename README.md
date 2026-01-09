@@ -98,3 +98,8 @@ MIT License
 
 - 邮箱: info@ilearnmore.cn
 - 网站: https://ilearnmore.cn
+
+## ☁️ 部署
+
+- `npm run build`（已启用 `output: 'export'`，构建会把静态 HTML 输出到 `./out`）。
+- `npx wrangler deploy` 会使用仓库根目录的 `wrangler.toml`，将 `./out` 上传到 Cloudflare Worker Site；部署前请确保 Cloudflare 项目中设置了 `CF_ACCOUNT_ID`（或在 `wrangler.toml` 中指定）。
